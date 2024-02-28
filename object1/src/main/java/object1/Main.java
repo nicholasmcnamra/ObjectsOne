@@ -12,4 +12,9 @@ public class Main {
         person1.setHeight(90);
         System.out.println(person1.getHeight());
     }
+
+    Car car1 = new Car();
+        car1.setMake("Volvo");
+        System.out.println(car1.getMake());
+
 }
