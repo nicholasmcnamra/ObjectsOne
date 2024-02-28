@@ -1,13 +1,24 @@
 package object1;
 
 public class Person {
-    int height = 0;
+    private String name;
+    private int height;
     // height to be entered in centimeters
 
-    public Person(int height) {
+//This is a constructor
+    public Person(String name, int height) {
+        this.name = name;
         this.height = height;
     }
+
     public Person() {
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    public String getName() {
+        return name;
     }
     public void setHeight(int height) {
         this.height = height;
@@ -15,4 +26,5 @@ public class Person {
     public int getHeight() {
         return height;
     }
+
 }

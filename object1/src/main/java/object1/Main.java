@@ -8,9 +8,19 @@ public class Main {
         Logger logger=Logger.getLogger(Main.class.getName());
         logger.info("This is a module-using Hello World!");
 
-    Person person1 = new Person();
-        person1.setHeight(90);
-        System.out.println(person1.getHeight());
+    Person[] people = new Person[10];
+
+    Person person1 = new Person("James", 25);
+
+    people[0] = person1;
+
+    System.out.println(people[0].getHeight());
+
+    Person john = new Person();
+        john.setHeight(90);
+        john.setName("John");
+        System.out.println(john.getName());
+        System.out.println(john.getHeight());
 
         Car volvo = new Car();
         volvo.setMake("Volvo");
