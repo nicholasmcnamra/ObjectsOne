@@ -11,10 +11,13 @@ public class Main {
     Person person1 = new Person();
         person1.setHeight(90);
         System.out.println(person1.getHeight());
+
+        Car volvo = new Car();
+        volvo.setMake("Volvo");
+        System.out.println(volvo.getMake());
+
+        Dog joe = new Dog();
+        joe.setAge(4);
+        System.out.println(joe.getAge());
     }
-
-    Car car1 = new Car();
-        car1.setMake("Volvo");
-        System.out.println(car1.getMake());
-
 }
