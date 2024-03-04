@@ -12,7 +12,7 @@ public class Main {
 
     Person person1 = new Person("James", 25);
 
-    people[0] = person1;
+    people[0] = person1; 
 
     System.out.println(people[0].getHeight());
 
